@@ -1,5 +1,9 @@
 ## How to run project
 
+Project was developed and run on Visual Studio Code, so the instructions<br/>
+on how to run the project are VSCode specific; unsure of whether it will<br/>
+run on other IDEs/platforms.
+
 In the project directory, you can run: 'npm start' or 'yarn start' in<br/> 
 the terminal to run the project
 
