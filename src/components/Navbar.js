@@ -42,7 +42,6 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Search</Button>}
                 </div>
             </nav>
         </>
