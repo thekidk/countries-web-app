@@ -39,6 +39,6 @@ information about the countries.<br/>
 
 ### Missing functionality: Search and Selecting Country to view more information
 
-Due to lack of experience with React, had a difficult time trying to implement the<br/> 
-search or modal pop-up view to display more information about the country.
+Due to lack of experience with React, still working on implementing<br/> 
+search and pop-up to display more information about the country.
 
