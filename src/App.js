@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Navbar from './components/Navbar';
+import home from './components/pages/home';
+import Africa from './components/pages/Africa';
+import Americas from './components/pages/Americas';
+import Europe from './components/pages/Europe';
+import Asia from './components/pages/Asia';
+import Oceania from './components/pages/Oceania';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={home} />
+          <Route path='/africa' component={Africa} />
+          <Route path='/americas' component={Americas} />
+          <Route path='/europe' component={Europe} />
+          <Route path='/asia' component={Asia} />
+          <Route path='/oceania' component={Oceania} />
+        </Switch>
+      </Router>
+    </>
   );
 }
+
+
 
 export default App;
