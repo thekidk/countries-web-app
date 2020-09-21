@@ -11,15 +11,15 @@ import './countryCard.css';
                         <div className='card-body'>
                             <h3 className="country-name">{country.name}</h3>
                             <p>
-                                 <strong>Population:</strong>
+                                 <strong>Population: </strong>
                                 {country.population}
                             </p>
                             <p className="country-region">
-                                <strong>Region:</strong>
+                                <strong>Region: </strong>
                                 {country.region}
                             </p>
                             <p>
-                                <strong>Capital:</strong>
+                                <strong>Capital: </strong>
                                  {country.capital}
                             </p>
                         </div>    
