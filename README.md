@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## How to run project
 
 In the project directory, you can run: npm start or yarn start to run the project
@@ -20,7 +18,7 @@ Launches the test runner in the interactive watch mode.<br />
 
 Builds the app for production to the `build` folder.<br />
 
-### 'Web App Functionality'
+### Web App Functionality
 
 Home page contains a navigation bar with "Countries API" and "Home" button.<br />
 
@@ -28,7 +26,7 @@ When either of these buttons are clicked they will both return to the home page.
 
 Responsive webpage design for both mobile and desktop.<br />
 
-### 'Selecting Regions'
+### Selecting Regions
 
 Countries are filtered and grouped together by the region in which they're located.<br/>
 
