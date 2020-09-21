@@ -1,6 +1,7 @@
 ## How to run project
 
-In the project directory, you can run: npm start or yarn start to run the project
+In the project directory, you can run: 'npm start' or 'yarn start' in<br/> 
+the terminal to run the project
 
 ### `yarn start`
 
@@ -36,7 +37,7 @@ all the countries in the selected region.<br/>
 Web app makes calls to the REST Countries API (https://restcountries.eu) to retrieve<br/>
 information about the countries.<br/>
 
-### Missing functionality
+### Missing functionality: Search and Selecting Country to view more information
 
 Due to lack of experience with React, had a difficult time trying to implement the<br/> 
 search or modal pop-up view to display more information about the country.
