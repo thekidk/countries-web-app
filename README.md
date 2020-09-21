@@ -33,5 +33,11 @@ Countries are filtered and grouped together by the region in which they're locat
 When you click on a region it will take you to anoher webpage that lists and displays<br/>
 all the countries in the selected region.<br/>
 
+Web app makes calls to the REST Countries API (https://restcountries.eu) to retrieve<br/>
+information about the countries.<br/>
 
+### Missing functionality
+
+Due to lack of experience with React, had a difficult time trying to implement the<br/> 
+search or modal pop-up view to display more information about the country.
 
