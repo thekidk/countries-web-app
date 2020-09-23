@@ -8,6 +8,7 @@ import Americas from './components/pages/Americas';
 import Europe from './components/pages/Europe';
 import Asia from './components/pages/Asia';
 import Oceania from './components/pages/Oceania';
+import Detail from './components/counryDetail';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/europe' component={Europe} />
           <Route path='/asia' component={Asia} />
           <Route path='/oceania' component={Oceania} />
+          <Route path='/countryDetail' component={Detail}/>
         </Switch>
       </Router>
     </>
