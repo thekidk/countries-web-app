@@ -50,7 +50,7 @@ render() {
         <>
         <div className='region-container'>
             <video src='/video-2.mp4' autoPlay loop muted /> 
-            <h1>Select a Region</h1>
+            <h1>Find a Country</h1>
             <br/>
             <br/>
             <br/>
