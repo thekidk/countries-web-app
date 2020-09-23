@@ -22,13 +22,20 @@ class RegionSection extends Component {
         var api = `https://restcountries.eu/rest/v2/name/${data.countryName}`;
 
         console.log(api)
+        
         fetch(api)
-            .then((res) => res.json())
-            .then((info) => {
-                this.setState({country : info})
-                console.log(this.state.country)
-            })
-            .catch(console.log())
+         .then((res) => {
+            if(!res.ok) throw new Error(res.status);
+            else return res.json();
+         })
+        .then((info) => {
+            this.setState({country : info});
+            console.log("DATA STORED");
+         })
+        .catch((error) => {
+         console.log('error: ' + error + '. Failed API request.');
+         this.setState({ requestFailed: true });
+        });
             
         //window.location.assign('/countryDetail')
 
