@@ -23,7 +23,7 @@ class Oceania extends Component {
         return(
             <>
                 <h1 className='oceania'>Oceania</h1>
-                <Countries countries={this.state.countries} />
+                <center><Countries countries={this.state.countries} /></center>
             </>
             
         )

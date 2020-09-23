@@ -23,7 +23,7 @@ class Americas extends Component {
         return(
             <>
                 <h1 className='americas'>North America & South America</h1>
-                <Countries countries={this.state.countries} />
+                <center><Countries countries={this.state.countries} /></center>
             </>
         )
     }
