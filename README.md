@@ -31,6 +31,12 @@ When either of these buttons are clicked they will both return to the home page.
 
 Responsive webpage design for both mobile and desktop.<br />
 
+### Search
+
+Search works by correctly typing in the name of the country you are trying to find, <br/>
+then clicking the search button right below the search box. The information for the <br/>
+specified country will then appear below. <br/>
+
 ### Selecting Regions
 
 Countries are filtered and grouped together by the region in which they're located.<br/>
@@ -40,9 +46,3 @@ all the countries in the selected region.<br/>
 
 Web app makes calls to the REST Countries API (https://restcountries.eu) to retrieve<br/>
 information about the countries.<br/>
-
-### Missing functionality: Search and Selecting Country to view more information
-
-Due to lack of experience with React, still working on implementing<br/> 
-search and pop-up to display more information about the country.
-
