@@ -20,8 +20,6 @@ class RegionSection extends Component {
         console.log(data.countryName)
         
         var api = `https://restcountries.eu/rest/v2/name/${data.countryName}`;
-
-        console.log(api)
         
         fetch(api)
          .then((res) => {
@@ -36,8 +34,6 @@ class RegionSection extends Component {
          console.log('error: ' + error + '. Failed API request.');
          this.setState({ requestFailed: true });
         });
-            
-        //window.location.assign('/countryDetail')
 
     }
 
